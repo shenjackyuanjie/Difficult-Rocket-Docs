@@ -1,5 +1,7 @@
-# Difficult Rocket Update Logs
-
+---
+title: Difficult Rocket Update Logs
+sidebar_position: 2
+---
 - 感谢 `Github copilot` 的翻译(甚至这句话也是`copilot`翻译的)
   - 也就意味着以后的更新日志是中文记录+`copilot`翻译的(当然，也有可能是`Easy Translate`翻译的)
 - Thanks `Github copilot` for translate (lazy yes!)
