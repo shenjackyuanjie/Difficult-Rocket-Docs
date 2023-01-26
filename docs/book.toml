@@ -1,0 +1,51 @@
+[book]
+authors = ["shenjack"]
+language = "zh-cn"
+multilingual = false
+src = "src"
+title = "Difficult-Rocket-docs"
+
+[build]
+build-dir = './book'
+create-missing = false
+use-default-preprocessors = true  # use the default preprocessors
+extra-watch-dirs = []             # directories to watch for triggering builds
+
+[output.html]
+input-404 = "404.md"
+
+# Required: Your repository URL used in the link.
+git-repository-url = "https://github.com/shenjackyuanjie/Difficult-Rocket"
+
+# Your git branch. Defaults to `main`
+git-branch = "main"
+
+# The text to use in the footer.
+# The link text is marked by `[]`
+open-on-text = "Found a bug? [Edit this page on GitHub.]"
+
+[output.linkcheck]
+# Should we check links on the internet? Enabling this option adds a
+# non-negligible performance impact
+follow-web-links = false
+
+# Are we allowed to link to files outside of the book's root directory? This
+# may help prevent linking to sensitive files (e.g. "../../../../etc/shadow")
+traverse-parent-directories = true
+
+[output.html.search]
+limit-results = 15
+
+[output.html.print]
+enable = true    # include support for printable output
+page-break = true # insert page-break after each chapter
+
+# [output.pdf]
+
+# [output.copy-resources]
+# optional = true
+# command = 'python output.py'
+
+[rust]
+edition = "2021"   # the default edition for code blocks
+
