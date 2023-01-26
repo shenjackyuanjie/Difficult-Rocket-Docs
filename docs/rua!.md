@@ -1,3 +1,8 @@
+---
+title: 奇怪的东西
+sidebar_position: 4
+---
+
 # pyglet相关
 
 pyglet 坐标轴原点是左上角 0, 0
