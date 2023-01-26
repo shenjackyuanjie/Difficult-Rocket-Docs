@@ -1,4 +1,7 @@
-# Difficult Rocket 计划特性页面
+---
+title: Difficult Rocket 计划特性页面
+slug: plan_features
+---
 
 这里会用中文列出。DR未来的计划特性（已经做出来的也会有标注）
 
